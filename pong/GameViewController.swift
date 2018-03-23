@@ -11,6 +11,8 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    var level: String = ""
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +23,9 @@ class GameViewController: UIViewController {
             
             // Get the SKScene from the loaded GKScene
             if let sceneNode = scene.rootNode as! GameScene? {
+                
+                sceneNode.level = self.level
+                sceneNode.controller = self
                 
                 // Copy gameplay related content over to the scene
                 sceneNode.entities = scene.entities

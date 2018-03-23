@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0BBF57205BE71000ED2FB6 /* shuriken.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BBF56205BE71000ED2FB6 /* shuriken.png */; };
+		3AEF6EED205BDF7A00B08C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF6EEC205BDF7A00B08C10 /* ViewController.swift */; };
+		4A5F705C205FCF91000F98C1 /* blue_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F705B205FCF91000F98C1 /* blue_ball.png */; };
+		4A5F7062205FD0C8000F98C1 /* theBALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F7061205FD0C8000F98C1 /* theBALL.png */; };
+		4A5F7064205FD1A2000F98C1 /* BACKGROUND.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F7063205FD1A2000F98C1 /* BACKGROUND.png */; };
+		4A5F7068205FD7F6000F98C1 /* ki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5F7067205FD7F6000F98C1 /* ki.png */; };
 		CAA21FF5205170C200ED20E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21FF4205170C200ED20E2 /* AppDelegate.swift */; };
 		CAA21FF7205170C200ED20E2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAA21FF6205170C200ED20E2 /* GameScene.sks */; };
 		CAA21FF9205170C200ED20E2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAA21FF8205170C200ED20E2 /* Actions.sks */; };
@@ -17,6 +23,9 @@
 		CAA22005205170C200ED20E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA22003205170C200ED20E2 /* LaunchScreen.storyboard */; };
 		CAA22010205170C200ED20E2 /* pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2200F205170C200ED20E2 /* pongTests.swift */; };
 		CAA2201B205170C200ED20E2 /* pongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA2201A205170C200ED20E2 /* pongUITests.swift */; };
+		FA10CD382064F8D200AF7C32 /* ki_red.png in Resources */ = {isa = PBXBuildFile; fileRef = FA10CD372064F8D200AF7C32 /* ki_red.png */; };
+		FA10CD3C20650CBB00AF7C32 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA10CD3B20650CBB00AF7C32 /* MyParticle.sks */; };
+		FA66D6EF205283B20069BA31 /* BallExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA66D6EE205283B20069BA31 /* BallExplosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A0BBF56205BE71000ED2FB6 /* shuriken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuriken.png; sourceTree = "<group>"; };
+		3AEF6EEC205BDF7A00B08C10 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A5F705B205FCF91000F98C1 /* blue_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_ball.png; sourceTree = "<group>"; };
+		4A5F7061205FD0C8000F98C1 /* theBALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBALL.png; sourceTree = "<group>"; };
+		4A5F7063205FD1A2000F98C1 /* BACKGROUND.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BACKGROUND.png; sourceTree = "<group>"; };
+		4A5F7067205FD7F6000F98C1 /* ki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ki.png; sourceTree = "<group>"; };
 		CAA21FF1205170C200ED20E2 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA21FF4205170C200ED20E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAA21FF6205170C200ED20E2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +68,9 @@
 		CAA22016205170C200ED20E2 /* pongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA2201A205170C200ED20E2 /* pongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pongUITests.swift; sourceTree = "<group>"; };
 		CAA2201C205170C200ED20E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA10CD372064F8D200AF7C32 /* ki_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ki_red.png; sourceTree = SOURCE_ROOT; };
+		FA10CD3B20650CBB00AF7C32 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		FA66D6EE205283B20069BA31 /* BallExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallExplosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,12 @@
 		CAA21FF3205170C200ED20E2 /* pong */ = {
 			isa = PBXGroup;
 			children = (
+				FA10CD372064F8D200AF7C32 /* ki_red.png */,
+				4A5F7067205FD7F6000F98C1 /* ki.png */,
+				4A5F7063205FD1A2000F98C1 /* BACKGROUND.png */,
+				4A5F7061205FD0C8000F98C1 /* theBALL.png */,
+				4A5F705B205FCF91000F98C1 /* blue_ball.png */,
+				3A0BBF56205BE71000ED2FB6 /* shuriken.png */,
 				CAA21FF4205170C200ED20E2 /* AppDelegate.swift */,
 				CAA21FF6205170C200ED20E2 /* GameScene.sks */,
 				CAA21FF8205170C200ED20E2 /* Actions.sks */,
@@ -112,6 +136,9 @@
 				CAA22001205170C200ED20E2 /* Assets.xcassets */,
 				CAA22003205170C200ED20E2 /* LaunchScreen.storyboard */,
 				CAA22006205170C200ED20E2 /* Info.plist */,
+				FA66D6EE205283B20069BA31 /* BallExplosion.sks */,
+				3AEF6EEC205BDF7A00B08C10 /* ViewController.swift */,
+				FA10CD3B20650CBB00AF7C32 /* MyParticle.sks */,
 			);
 			path = pong;
 			sourceTree = "<group>";
@@ -243,8 +270,16 @@
 			files = (
 				CAA22000205170C200ED20E2 /* Main.storyboard in Resources */,
 				CAA21FF7205170C200ED20E2 /* GameScene.sks in Resources */,
+				4A5F705C205FCF91000F98C1 /* blue_ball.png in Resources */,
+				FA66D6EF205283B20069BA31 /* BallExplosion.sks in Resources */,
 				CAA22002205170C200ED20E2 /* Assets.xcassets in Resources */,
+				4A5F7068205FD7F6000F98C1 /* ki.png in Resources */,
+				4A5F7064205FD1A2000F98C1 /* BACKGROUND.png in Resources */,
+				FA10CD3C20650CBB00AF7C32 /* MyParticle.sks in Resources */,
+				FA10CD382064F8D200AF7C32 /* ki_red.png in Resources */,
+				3A0BBF57205BE71000ED2FB6 /* shuriken.png in Resources */,
 				CAA22005205170C200ED20E2 /* LaunchScreen.storyboard in Resources */,
+				4A5F7062205FD0C8000F98C1 /* theBALL.png in Resources */,
 				CAA21FF9205170C200ED20E2 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +307,7 @@
 			files = (
 				CAA21FFB205170C200ED20E2 /* GameScene.swift in Sources */,
 				CAA21FFD205170C200ED20E2 /* GameViewController.swift in Sources */,
+				3AEF6EED205BDF7A00B08C10 /* ViewController.swift in Sources */,
 				CAA21FF5205170C200ED20E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +555,7 @@
 				CAA22021205170C200ED20E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAA22022205170C200ED20E2 /* Build configuration list for PBXNativeTarget "pongTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +564,7 @@
 				CAA22024205170C200ED20E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAA22025205170C200ED20E2 /* Build configuration list for PBXNativeTarget "pongUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +573,7 @@
 				CAA22027205170C200ED20E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
